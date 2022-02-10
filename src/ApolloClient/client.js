@@ -11,7 +11,7 @@ const httpLink = new HttpLink({
 });
 
 const wsLink = new WebSocketLink({
-  uri: 'ws://merry-starling-52.hasura.app/v1/graphql',
+  uri: 'wss://merry-starling-52.hasura.app/v1/graphql',
   options: {
     reconnect: true,
     connectionParams: {
